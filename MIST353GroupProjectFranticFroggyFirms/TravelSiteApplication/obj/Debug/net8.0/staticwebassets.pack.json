@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TravelSiteApplication.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\airplane.jpg",
+      "PackagePath": "staticwebassets\\airplane.jpg"
+    },
+    {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\beach.jpg",
       "PackagePath": "staticwebassets\\beach.jpg"
     },
@@ -263,6 +267,14 @@
     {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\paris.jpg",
       "PackagePath": "staticwebassets\\paris.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\plane.jpg",
+      "PackagePath": "staticwebassets\\plane.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\planeinsky.jpg",
+      "PackagePath": "staticwebassets\\planeinsky.jpg"
     },
     {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\world.jpg",

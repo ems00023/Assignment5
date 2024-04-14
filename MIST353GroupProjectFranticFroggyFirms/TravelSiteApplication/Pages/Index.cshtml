@@ -3,11 +3,56 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<body class="bg-light">
-<div class="text-center">
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+        .header h1 {
+            font-size: 370%;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            border: 30px solid #89CFF0; 
+        }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+        .button-container .btn {
+            margin: 0 10px;
+            text-align: center;
+            font-size: 135%;
+        }
+
+            .button-container .btn:hover {
+                background-color: #0056b3; /* Example hover color */
+
+</style>
+
+<div class="header">
     <h1 class="display-4">Travel Planner</h1>
 </div>
-    <img src="world.jpg">
+
+<div class="header">
+    <img src="~/planeinsky.jpg" alt="Plane" />
+    <br style="margin-bottom: 200px;">
+ </div>
+<div style="width: 500px; margin: 0 auto;" ">
+ <p style="text-align: center; font-size:145%;">Welcome to our travel planner site! Start your journey with us and explore endless possibilities. 
+ From serene beaches to adventurous mountains and vibrant cities, we've got you covered. With user-friendly tools, 
+ find your dream destination, personalize your itinerary,and discover hidden gems.
+ Let us be your trusted companion in crafting unforgettable experiences. Welcome aboard!</p>
+ </div>
 
     <div class="button-container">
         <a href="~/SearchPage" class="btn btn-primary">Go to Search Page</a>
@@ -15,7 +60,7 @@
         <a href="~/ClimatePage" class="btn btn-primary">Go to Climate Page</a>
         <a href="~/HotelInfo" class="btn btn-primary">Go to Hotel Information Page</a>
     </div>
-</body>
+
 
 
 
