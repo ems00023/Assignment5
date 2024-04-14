@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YyOfQRP/nuPHTqJh9zYqWQdIUkffaoI2zGTGb/1BevQ=",
+  "Hash": "qKoHoa+QW+johgyzQvAKTn71nbOsXZkX0FWdPpOXnQU=",
   "Source": "TravelSiteApplication",
   "BasePath": "_content/TravelSiteApplication",
   "Mode": "Default",
@@ -2485,6 +2485,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\planeinsky.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\sky.jpg",
+      "SourceId": "TravelSiteApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\",
+      "BasePath": "_content/TravelSiteApplication",
+      "RelativePath": "sky.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sky.jpg"
     },
     {
       "Identity": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\world.jpg",

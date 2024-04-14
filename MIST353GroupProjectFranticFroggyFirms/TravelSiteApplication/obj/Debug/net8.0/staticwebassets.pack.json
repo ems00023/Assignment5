@@ -277,6 +277,10 @@
       "PackagePath": "staticwebassets\\planeinsky.jpg"
     },
     {
+      "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\sky.jpg",
+      "PackagePath": "staticwebassets\\sky.jpg"
+    },
+    {
       "Id": "C:\\Users\\MISTUser\\Documents\\GitHub\\Assignment5\\MIST353GroupProjectFranticFroggyFirms\\TravelSiteApplication\\wwwroot\\world.jpg",
       "PackagePath": "staticwebassets\\world.jpg"
     },

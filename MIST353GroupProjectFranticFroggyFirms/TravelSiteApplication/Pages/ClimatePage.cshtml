@@ -3,28 +3,101 @@
 @{
     ViewData["Title"] = "Climate";
 }
-
-<h1 class="h1" style="text-align:center; font-size:280%"><b>Climate Forcast</b></h1>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Weather Information</title>
+<body style="background-image: url('sky.jpg'); background-size: cover; background-position: center;">
 <style>
-    .container {
-        border: 2px solid blue;
-        padding: 20px;
-        width: 300px;
-        margin: 0 auto;
+    .headercontainer{
+            border: 30px solid #89CFF0;
+            background-color: #FFFFFF;
+        }
+    th.vertical {
+        display: block;
+        text-align: left;
+        padding: 10px; 
+        width: 25%;
+    }
+
+   <style>
+    .searchcontainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .search-container {
         margin-top: 50px;
         text-align: center;
+        margin: 0 auto;
+      
+    }
+
+ 
+    .search-input {
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+ 
+    }
+
+
+    .search-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .search-button:hover {
+            background-color: #0056b3;
+        }
+</style>
+<div class="headercontainer">
+<h1 class="h1" style="text-align:center; font-size:350%"><b>Weather Forcast</b></h1>
+    </div>
+<br style="margin-bottom: 50px;">
+<div class="searchcontainer">
+<div class="search-container">
+    <input type="text" class="search-input" id="searchInput" placeholder="Search for a Destination...">
+    <button class="search-button" onclick="search()">Search</button>
+</div>
+</div>
+
+
+<style>
+    .tablecontainer {
+        border: 30px solid #89CFF0;
+            background-color: #FFFFFF;
+            padding: 20px;
+        width: 500px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-size: 150%;
+    }
+
+    table {
+        width: 100%;
     }
 </style>
 
+<table class="tablecontainer">
+    <tr>
+        <th class="vertical">Date: </th>
+        <th class="vertical">Temperature(C): </th>
+        <th class ="vertical">Temperature(F): </th>
+        <th class ="vertical">Summary: </th>
+    </tr>
+</table>
 
-    <div class="container">
-        <h2>Weather Information</h2>
-       
-    </div>
+
+
+</body>
 
 
 
