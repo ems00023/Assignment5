@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using MIST353GroupProjectFranticFroggyFirms.Data;
+using MIST353GroupProjectFranticFroggyFirms.Repositiories;
 using MIST353GroupProjectFranticFroggyFirms.Repositories;
+using TravelSiteBETAPI.Repositories;
 
 
 
@@ -14,6 +16,8 @@ builder.Services.AddDbContext<DbContextClass>(options =>
 builder.Services.AddScoped<IEllaAPI, EllaAPI>(); // Register EllaAPI class
 builder.Services.AddScoped<IHotelRoomAvail, HotelRoomAvail>(); //brooke api
 builder.Services.AddScoped<IHotelReview, HotelReviewService>(); //brooke api
+builder.Services.AddScoped<IHotelService, HotelService>(); //Trey
+builder.Services.AddScoped<IRatingService, RatingService>(); //Trey
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

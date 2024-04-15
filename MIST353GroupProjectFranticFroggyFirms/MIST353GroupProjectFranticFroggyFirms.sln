@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MIST353GroupProjectFranticFroggyFirms", "MIST353GroupProjectFranticFroggyFirms\MIST353GroupProjectFranticFroggyFirms.csproj", "{90B1BB65-7E5C-4045-87DC-60F9ED4966A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelSiteApplication", "TravelSiteApplication\TravelSiteApplication.csproj", "{30737078-1390-4980-B310-43F74DF5B39D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelSiteApplication", "TravelSiteApplication\TravelSiteApplication.csproj", "{30737078-1390-4980-B310-43F74DF5B39D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
