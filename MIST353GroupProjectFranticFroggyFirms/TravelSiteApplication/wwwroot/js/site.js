@@ -62,7 +62,7 @@ async function checkCoords() {
     });
 }
 
-
+//completed
 // get weather forcast
 // This is a JS file, not HTML. This should be a function, not a script.
 async function getWeatherForecast() {
