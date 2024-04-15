@@ -56,44 +56,42 @@
         .search-button:hover {
             background-color: #0056b3;
         }
+    .weathercontainer {
+            border: 30px solid #89CFF0;
+            background-color: #FFFFFF;
+            padding: 20px;
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 50px;
+            font-size: 150%;
+    }
 </style>
 <div class="headercontainer">
 <h1 class="h1" style="text-align:center; font-size:350%"><b>Weather Forcast</b></h1>
     </div>
 <br style="margin-bottom: 50px;">
 <div class="searchcontainer">
-<div class="search-container">
-    <input type="text" class="search-input" id="searchInput" placeholder="Search for a Destination...">
-    <button class="search-button" onclick="search()">Search</button>
-</div>
+
 </div>
 
 
-<style>
-    .tablecontainer {
-        border: 30px solid #89CFF0;
-            background-color: #FFFFFF;
-            padding: 20px;
-        width: 500px;
-        height: 300px;
-        margin: 0 auto;
-        margin-top: 50px;
-        font-size: 150%;
-    }
+    <div class="weathercontainer">
+        <h2 class="h2" style="text-align:center">Weather Information</h2>
+        <div id="weatherData"></div>
+        <!---Must have div to hold information --->
+    </div>
 
-    table {
-        width: 100%;
-    }
-</style>
+    <!--- Must call function --->
+    <script type="module">
+        getWeatherForecast();
+    </script>
 
-<table class="tablecontainer">
-    <tr>
-        <th class="vertical">Date: </th>
-        <th class="vertical">Temperature(C): </th>
-        <th class ="vertical">Temperature(F): </th>
-        <th class ="vertical">Summary: </th>
-    </tr>
-</table>
+
+  
+
+
+
 
 
 
