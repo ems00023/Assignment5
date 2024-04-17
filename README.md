@@ -6,13 +6,16 @@ The search page is where users can search for hotel pages. When the user is brou
 ## Climate Page
 The climate page gives users the ability to check weather information. It uses the weather forecast API. The web page has a sky image background and a container storing weather information. Ella Southwell created this page and used the WeatherForecast API. 
 ## Review Page
-
+The review page gives the users the option to leave a review as they feel. They do not here but this option is there so we can hear back from our customers and so that others, when booking, can use their feedback when booking. There is a place for your name, email, and a section to leave the comment at. This uses the review API in order to do so.
 ## Ratings Page
 
 ## Hotel Information Page
 
 ## Destination Page
 This page gives users a list of destinations they might be interested in. Its purpose is to spark interest in the user to travel. Its design uses the list to list popular places inside and outside the United States. The page also uses slideshows to show different images of popular places to spark viewers' interest. Ella Southwell created this page.
+
+## Room Availability Page 
+This page integrates two APIs. On this page users can look up their hotel and the specific dates that they desire to stay to see if it is available for their liking. Users can stay for a range of just one night or seven, whatever their liking is they can stay for as many days as desired. They just put in the hotel in the top search bar, and then the dates they want in the search bar below it and hit the submit button. This will then show if that is available.
 
 ## References
 References used in creating our application include the class lectures, W3Schools, and ChatGPT. 
