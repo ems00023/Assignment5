@@ -38,10 +38,7 @@ The weather forecast API generates the predicted weather forecast for a destinat
 The Hotel Search By Radius API gives the user hotel coordinates. The user inputs the longitude and latitude. Once they are typed into the search button, the output would be the hotel within that radius. A user can access this API by clicking on the button "Go to Search Page" on the home page. Once the button is clicked, they will be brought to a page with a search bar to enter the required information and hit search. Ella Southwell implemented this API into the application.
 
 ### hotel review
-What the API does.
-What are the inputs.
-	What are the outputs.
-	How to use it.
+The Hotel Review API allows users to leave a review as they please. The user puts in their name, email, and the comment they want to leave whether it be a good or bad review. The inputs are the information that they provide to the website. The outputs are the reviews and comments that the user leaves in order for other users to look at and use to make decisions when they are booking. Brooke Mesinere implemented this API into the application.
 
 ### hotel comments
 What the API does.
@@ -56,13 +53,7 @@ What are the inputs.
 	How to use it.
 
 ### hotel room avail
-What the API does.
-What are the inputs.
-	What are the outputs.
-	How to use it.
-
-
-
+The Hotel Room Availability API allows the user to put in the desired dates that they want to stay into the website to see if they are available. The user goes to the hotel room availability page from the search page, and will then put in the hotel in the top search bar, the dates desired into the search bar below, and then hit submit. Once they do this it will pop up with the dates available that they want, or it will pop up with nothing meaning that those desired dates that they want are not available. The inputs are the hotel and dates the user wants. The outputs are the dates and hotel given back if it is availble for those desired dates and hotel. Brooke Mesinere implemented this API.
 
 ## General description 
 This application is designed to give users a new way to plan their travels. By making this application more focused on weather and climate, users can find the destinations they wish to visit based on their climate. It gives users access to hotel and climate information, making travel planning easier. The main hope of this application is to make travel easier.
