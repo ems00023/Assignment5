@@ -47,10 +47,7 @@ What are the inputs.
 	How to use it.
 
 ### hotel info
-What the API does.
-What are the inputs.
-	What are the outputs.
-	How to use it.
+The Api allows the user to search hotels and see all details stored for the hotel. Such as Type, Address, Phone Number, Email, etc.
 
 ### hotel room avail
 The Hotel Room Availability API allows the user to put in the desired dates that they want to stay into the website to see if they are available. The user goes to the hotel room availability page from the search page, and will then put in the hotel in the top search bar, the dates desired into the search bar below, and then hit submit. Once they do this it will pop up with the dates available that they want, or it will pop up with nothing meaning that those desired dates that they want are not available. The inputs are the hotel and dates the user wants. The outputs are the dates and hotel given back if it is availble for those desired dates and hotel. Brooke Mesinere implemented this API.
